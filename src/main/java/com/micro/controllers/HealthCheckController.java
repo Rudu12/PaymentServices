@@ -10,4 +10,6 @@ public class HealthCheckController {
 	public String healthcheck() {
 		return "Everything Fine";
 	}
+	
+	
 }

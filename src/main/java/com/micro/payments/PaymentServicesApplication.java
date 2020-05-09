@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.micro.controllers")
+@ComponentScan(basePackages={"com.micro.controllers","com.micro.dto"})
 public class PaymentServicesApplication {
 
 	public static void main(String[] args) {
